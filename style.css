@@ -1,0 +1,72 @@
+/* !Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+
+/* !CSS Variable */
+:root {
+  --mainWhite: #ffffff;
+  --primaryColor: #18191f;
+  --darkBlue: #0a0826;
+  --mainTransition: all 0.3s linear;
+  --letter-spacing: 0.25rem;
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* !Reset */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* !Body */
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primaryColor);
+  background: var(--mainWhite);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* !Global Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--letterSpace);
+}
+
+h1 {
+  font-size: 3.3rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  font-weight: 300;
+  line-height: 2;
+}
+a {
+  text-decoration: none;
+}
+
+/* !More Global Styles */
+
+/* !Section */
+/* !Title */
+/* !Section Center */
+
+/* !Navbar */
