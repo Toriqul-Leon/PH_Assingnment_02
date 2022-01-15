@@ -180,6 +180,7 @@ a {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 1080px) {
   .collections {
     display: grid;
@@ -202,6 +203,10 @@ a {
     margin: 0;
     padding: 0;
   }
+  .button-text {
+    font-size: 12px;
+    font-weight: 600;
+  }
   .container {
     width: 100%;
   }
@@ -214,7 +219,7 @@ a {
     align-items: center;
   }
   .journey {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .collection {
     margin-bottom: 25px;
