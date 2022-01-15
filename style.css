@@ -340,7 +340,7 @@ a {
 }
 
 .footer-icon:hover {
-  color: var(--primaryColor);
+  color: var(--btnColor);
   transform: translateY(-10%);
 }
 .copyright {
