@@ -80,14 +80,16 @@ a {
 
 .main-btn {
   text-transform: capitalize;
-  padding: 0.2rem 0.5rem;
+  height: 40px;
+  padding: 5px;
   font-size: 20px;
   line-height: 1.5;
-  display: inline;
+  display: inline-flex;
   background: var(--btnColor);
   color: var(--mainWhite);
   border-radius: 25px;
-
+  overflow: hidden;
+  border: none;
   transition: var(--mainTransition);
 }
 
@@ -95,6 +97,17 @@ a {
   color: var(--btnColor);
   background: var(--mainWhite);
   border: 1px solid var(--btnColor);
+}
+.button-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 100%;
+}
+.button-icon {
+  font-size: 1em;
 }
 
 .section {
