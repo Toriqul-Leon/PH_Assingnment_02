@@ -190,6 +190,9 @@ a {
     padding: 100px;
     margin: 0;
   }
+   .article-heading {
+    font-size: 3rem;
+  }
   .container {
     width: 100%;
   }
@@ -220,6 +223,10 @@ a {
   }
   .journey {
     flex-direction: column-reverse;
+  }
+   .article-heading {
+    font-size: 1.5rem;
+    text-align: center;
   }
   .collection {
     margin-bottom: 25px;
