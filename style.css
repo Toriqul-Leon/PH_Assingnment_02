@@ -1,4 +1,4 @@
-/* !Fonts */
+/* !Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* !CSS Variable */
@@ -65,8 +65,6 @@ p:not(.collection-para) {
 a {
   text-decoration: none;
 }
-
-/* !More Global Styles */
 
 /* !Section */
 .section-heading {
@@ -232,7 +230,7 @@ a {
     text-align: justify;
   }
 }
-
+/* !End of Media Queries */
 .collection-img {
   padding: 17px 15px;
 }
@@ -334,7 +332,7 @@ a {
 }
 
 .footer-icon:hover {
-  color: var(--primaryColor);
+  color: var(--btnColor);
   transform: translateY(-10%);
 }
 .copyright {
@@ -343,4 +341,3 @@ a {
 }
 
 /* !End of footer */
-/* !Navbar */
