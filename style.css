@@ -127,7 +127,7 @@ a {
   border-radius: 25px;
   overflow: hidden;
   border: none;
-  margin-left: 78%;
+  margin-left: 70%;
   margin-top: 20px;
   transition: var(--mainTransition);
 }
@@ -188,7 +188,6 @@ a {
   color: var(--mainWhite);
   text-align: center;
   padding: 25px 0;
-  margin-top: 25px 0 0 0;
 }
 
 .footer-icons {
@@ -214,8 +213,6 @@ a {
   text-transform: capitalize;
   letter-spacing: var(--letterSpace);
 }
-.section {
-  padding: 5rem 0;
-}
+
 /* !End of footer */
 /* !Navbar */
