@@ -192,28 +192,6 @@ a {
     width: 100%;
   }
 }
-@media only screen and (max-width: 768px) {
-  .collections {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    margin: 0;
-    padding: 0;
-  }
-  .main-header {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .button-text {
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .container {
-    width: 100%;
-  }
-}
 @media only screen and (max-width: 767px) {
   .collections {
     display: flex;
