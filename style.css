@@ -1,4 +1,4 @@
-/* !Font */
+/* !Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* !CSS Variable */
@@ -65,6 +65,8 @@ p:not(.collection-para) {
 a {
   text-decoration: none;
 }
+
+/* !More Global Styles */
 
 /* !Section */
 .section-heading {
@@ -192,16 +194,29 @@ a {
     width: 100%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .button-text {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .container {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .collections {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  }
-  .main-header {
-    font-size: 2rem;
-    text-align: center;
   }
   .journey {
     flex-direction: column-reverse;
@@ -217,7 +232,7 @@ a {
     text-align: justify;
   }
 }
-/* !End of Media Queries */
+
 .collection-img {
   padding: 17px 15px;
 }
@@ -238,63 +253,6 @@ a {
 .fa-star.empty {
   color: #eaeaea;
 }
-/*! ClearFix */
-.clearfix::after,
-.clearfix::before {
-  content: "";
-  clear: both;
-  display: table;
-}
-.center {
-  padding: 4rem 0;
-  width: 80vw;
-  max-width: 1170px;
-  margin: 0 auto;
-}
-/* !Contact */
-.contact {
-  padding-top: 2rem;
-}
-.contact-item {
-  margin-bottom: 3rem;
-}
-.contact-title {
-  color: var(--btnColor);
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact-text {
-  text-transform: uppercase;
-}
-
-.form-control {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid var(--btnColor);
-  outline: none;
-  margin: 2rem 0;
-  padding: 1.3rem 0;
-  font-size: 0.85rem;
-  font-weight: bold;
-}
-.form-control::placeholder {
-  color: var(--btnColor);
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 992px) {
-  .contact-info,
-  .contact-form {
-    float: left;
-    width: 50%;
-    padding: 0 1rem;
-  }
-}
-/*! End of Contact */
-
 /* !Footer */
 .footer {
   background: var(--darkBlue);
@@ -319,7 +277,7 @@ a {
 }
 
 .footer-icon:hover {
-  color: var(--btnColor);
+  color: var(--primaryColor);
   transform: translateY(-10%);
 }
 .copyright {
@@ -328,3 +286,4 @@ a {
 }
 
 /* !End of footer */
+/* !Navbar */
