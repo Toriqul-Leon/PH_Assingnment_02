@@ -74,7 +74,7 @@ a {
   margin-top: 87px;
 }
 .section-center {
-  width: 100%;
+  width: 99%;
   margin: 10rem 10px;
 }
 .journey {
@@ -208,24 +208,23 @@ a {
 }
 @media only screen and (max-width: 767px) {
   .collections {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .journey {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .article-heading {
-    align-items: center;
-    justify-content: center;
+  .collection {
+    margin-bottom: 25px;
   }
-
   .container {
     width: 100%;
+  }
+  .section-center p {
+    width: 100%;
+    text-align: justify;
   }
 }
 
