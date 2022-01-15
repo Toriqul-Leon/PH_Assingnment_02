@@ -1,5 +1,5 @@
 /* !Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* !CSS Variable */
 :root {
@@ -55,9 +55,9 @@ h3 {
 h4 {
   font-size: 1.2rem;
 }
-p {
+p:not(.collection-para) {
   margin-bottom: 1.25rem;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5;
   width: 500px;
 }
@@ -119,7 +119,6 @@ a {
   text-transform: capitalize;
   height: 40px;
   padding: 5px;
-
   font-size: 20px;
   line-height: 1.5;
   display: inline-flex;
@@ -128,7 +127,7 @@ a {
   border-radius: 25px;
   overflow: hidden;
   border: none;
-  margin-left: 90%;
+  margin-left: 78%;
   margin-top: 20px;
   transition: var(--mainTransition);
 }
@@ -141,21 +140,36 @@ a {
 
 /* !Title */
 .collection-title {
+  margin-bottom: 30px;
   text-align: center;
   font-size: 28px;
   font-weight: 600;
 }
 /* !Collection */
 .collections {
-  background: #f2f2f2;
   display: grid;
-  grid-template-columns: repeat(3, 500px);
+  grid-template-columns: repeat(3, 25%);
+  grid-column-gap: 20px;
   grid-row-gap: 30px;
-  grid-column-gap: 30px;
+  margin-left: 50px;
+  padding-left: 245px;
 }
 .collection {
+  width: 330px;
+  height: 476px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   background: var(--mainWhite);
+}
+
+.collection-img {
+  padding: 17px 15px;
+}
+.collection-info {
+  padding-left: 10px;
+}
+.collection-para {
+  color: #888894;
+  font-size: 0.9rem;
 }
 /* !Navbar */
